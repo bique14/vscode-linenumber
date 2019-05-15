@@ -1,31 +1,11 @@
-# getline README
-
-This is the README for your extension "getline". After writing up a brief description, we recommend including the following sections.
+# Insert Console.log Line Number
 
 ## Features
+ปัญหาเวลา debug ด้วย console.log หาไม่เจอว่าพิมพ์ไว้ตรงบรรทัดไหน หรือเยอะจนลืมลบ ทำให้ต้องเสียเวลามานั่งไล่หาทั้งไฟล์ ว่าข้อมูลที่แสดงออกมาผ่าน console มาจากบรรทัดไหน หรือฟังก์ชั่นไหน
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+## Usage 
+Select line and press `F1` on Window or `CMD+SHIFT+P` on macOS and type __Insert Line Number__.
+![alt text](./example.gif)
 
 ## Known Issues
 
